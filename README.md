@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome books</b></h3>
 
 </div>
 
@@ -60,18 +60,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Awesome books [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Awesome books]** is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+This project was created in HTML and javascript for both mobile and desktop view.
+Note that it is plain HTML with no styling, but it will allow you to add and remove books from the list!.
 <details>
   <summary>Client</summary>
   <ul>
