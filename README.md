@@ -25,11 +25,9 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
+<a name="readme-top"></a>
 
-  <h3><b>Awesome books</b></h3>
-
-</div>
+<h1 align="center" style="font-family: Serif; font-size: 3.5em;">Dataverse-conference-room</h1>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -44,9 +42,6 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
