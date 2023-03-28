@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <a name="readme-top"></a>
 
-<h1 align="center" style="font-family: Serif; font-size: 3.5em;">Dataverse-conference-room</h1>
+<h1 align="center" style="font-family: Serif; font-size: 3.5em;">Awesome-Books</h1>
 
 <!-- TABLE OF CONTENTS -->
 
