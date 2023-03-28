@@ -149,50 +149,21 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd Awesomebooks
+  npm install
 ```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
+Start python server and open http://localhost:8000
 
-```sh
-
+```c
+  python -m http.server 8000
+  http://localhost:8000
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,7 +223,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Mivroverse
+- Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
