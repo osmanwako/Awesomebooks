@@ -12,8 +12,7 @@ function storebook() {
 
 function DeleteBook(event) {
   const parent = event.target.parentElement;
-  const id = ${event.target.id};
-  // console.log(event.target.id, books);
+  const id = `${event.target.id}`;
   books = books.filter((book) => book.listid !== id);
   storebook();
   if (parent) parent.remove();
@@ -42,9 +41,9 @@ function createInterface(id, title, author) {
 }
 
 function createBook(event) {
-  const title = event.target.elements[0].value ?? '';
-  const author = event.target.elements[1].value ?? '';
-  const listid = book${Date.now()};
+  const title = event.target.elements[0].value;
+  const author = event.target.elements[1].value;
+  const listid = `book${Date.now()}`;
   if (isbookstored()) {
     books = [...books, { listid, title, author }];
   } else {
