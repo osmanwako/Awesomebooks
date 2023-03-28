@@ -25,14 +25,9 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+<a name="readme-top"></a>
 
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+<h1 align="center" style="font-family: Serif; font-size: 3.5em;">Awesome-Books</h1>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -47,9 +42,6 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -60,18 +52,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Awesome books [Awesome Books] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Awesome books]** is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+This project was created in HTML and javascript for both mobile and desktop view.
+Note that it is plain HTML with no styling, but it will allow you to add and remove books from the list!.
 <details>
   <summary>Client</summary>
   <ul>
@@ -99,9 +88,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[UI implemented by plain HTML only.]**
+- **[remove button removes list while the add button would add from the collection and local storage ]**
+- **[Collection was preserved in local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +100,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://osmanwako.github.io/Awesomebooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +133,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/osmanwako/Awesomebooks.git
 ```
 --->
 
@@ -152,50 +141,21 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd Awesomebooks
+  npm install
 ```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
+Start python server and open http://localhost:8000
 
-```sh
-
+```c
+  python -m http.server 8000
+  http://localhost:8000
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,15 +167,15 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@osmanwako](https://github.com/osmanwako)
+- Twitter: [@osmanwako](https://twitter.com/BantuFitae)
+- LinkedIn: [@Osmanwako](https://www.linkedin.com/in/osman-wako-08663825a/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dagmawi](https://github.com/dagmawiii03)
+- Twitter: [@dagmawi](https://twitter.com/dag_mawi111)
+- LinkedIn: [@dagmawi](linkedin.com/in/dagmawi-yohannes-b36488236)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +185,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Refactor to use javascript classes]**
+- [ ] **[complete website with navigation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +196,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/osmanwako/Awesomebooks/Issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,7 +204,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+All kind of support is appreciated as well.
 
 If you like this project...
 
@@ -255,9 +214,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +222,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **How to make a responsive web app**
 
-- **[Question_1]**
+  - employing specific, targeted media-queries
 
-  - [Answer_1]
+- **How to run linter setup on html & css**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - by using `npx hint .` and `npx stylelint "**/*.{css,scss}"`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +236,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
