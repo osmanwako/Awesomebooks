@@ -2,10 +2,6 @@ let books = [{ listid: '', title: '', author: '' }];
 const bookform = document.getElementById('form-asm-bookid');
 const booklist = document.getElementById('awesomebookslist');
 
-let books = [{ listid: '', title: '', author: '' }];
-const bookform = document.getElementById('form-asm-bookid');
-const booklist = document.getElementById('awesomebookslist');
-
 function isbookstored() {
   return localStorage.getItem('awesomebookslist');
 }
