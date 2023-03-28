@@ -141,7 +141,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/osmanwako/Awesomebooks.git
 ```
 --->
 
@@ -204,15 +204,15 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@osmanwako](https://github.com/osmanwako)
+- Twitter: [@osmanwako](https://twitter.com/BantuFitae)
+- LinkedIn: [@Osmanwako(https://www.linkedin.com/in/osman-wako-08663825a/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dagmawi](https://github.com/dagmawiii03)
+- Twitter: [@dagmawi](https://twitter.com/dag_mawi111)
+- LinkedIn: [@dagmawi](linkedin.com/in/dagmawi-yohannes-b36488236)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,7 +234,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/osmanwako/Awesomebooks/Issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,7 +242,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+All kind of support is appreciated as well.
 
 If you like this project...
 
@@ -252,9 +252,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- Mivroverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -262,15 +260,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **How to make a responsive web app**
 
-- **[Question_1]**
+  - employing specific, targeted media-queries
 
-  - [Answer_1]
+- **How to run linter setup on html & css**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - by using `npx hint .` and `npx stylelint "**/*.{css,scss}"`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -279,7 +275,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
