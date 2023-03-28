@@ -206,7 +206,7 @@ Example:
 
 - GitHub: [@osmanwako](https://github.com/osmanwako)
 - Twitter: [@osmanwako](https://twitter.com/BantuFitae)
-- LinkedIn: [@Osmanwako(https://www.linkedin.com/in/osman-wako-08663825a/)
+- LinkedIn: [@Osmanwako](https://www.linkedin.com/in/osman-wako-08663825a/)
 
 👤 **Author2**
 
