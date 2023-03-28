@@ -108,7 +108,7 @@ Note that it is plain HTML with no styling, but it will allow you to add and rem
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://osmanwako.github.io/Awesomebooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
