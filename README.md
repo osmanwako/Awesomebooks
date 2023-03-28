@@ -26,9 +26,6 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>Awesome books</b></h3>
 
@@ -60,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome books [your_project_name] <a name="about-project"></a>
+# 📖 Awesome books [Awesome Books] <a name="about-project"></a>
 
 **[Awesome books]** is a simple website that displays a list of books and allows you to add and remove books from that list.
 
@@ -96,9 +93,9 @@ Note that it is plain HTML with no styling, but it will allow you to add and rem
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[UI implemented by plain HTML only.]**
+- **[remove button removes list while the add button would add from the collection and local storage ]**
+- **[Collection was preserved in local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,9 +190,8 @@ Start python server and open http://localhost:8000
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Refactor to use javascript classes]**
+- [ ] **[complete website with navigation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
