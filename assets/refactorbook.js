@@ -7,6 +7,11 @@ class Book {
     this.listid = `book${Date.now()}`;
   }
 
+  addbook() {
+    Book.lists = [...Book.lists, this];
+    Book.storebook();
+  }
+
   static storebook() {
     localStorage.setItem('awesomebookslist', JSON.stringify(Book.lists));
   }
@@ -56,10 +61,9 @@ function addbook(event) {
   const title = event.target.elements.title.value;
   const author = event.target.elements.author.value;
   const book = new Book(title, author);
+  book.addbook();
   const data = book.getcontainer();
   booklist.append(data);
-  Book.lists.push(book);
-  Book.storebook();
   event.preventDefault();
   event.target.reset();
 }

@@ -5,10 +5,10 @@
 }
 
 main {
+  text-align: center;
   margin: 20px;
   padding: 20px;
   max-width: 678px;
-  text-align: center;
 }
 
 .books-container {
@@ -20,7 +20,7 @@ main {
 .book-list {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 8px;
 }
 
@@ -34,10 +34,22 @@ main {
 
 .books-add {
   padding: 10px;
+  text-align: end;
+  display: flex;
+  justify-content: center;
+}
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .books-add input {
   padding: 8px;
+  display: block;
+  margin: 5px;
 }
 
 .books-add .btn-add {
