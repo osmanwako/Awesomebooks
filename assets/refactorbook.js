@@ -52,7 +52,17 @@ class Book {
 
 const bookform = document.getElementById('form-asm-bookid');
 const booklist = document.getElementById('awesomebookslist');
+const booknavs = document.querySelectorAll('.nav-link');
 
+function viewtab(event) {
+  const id = `awesome${event.target.id}`;
+  const sectionhide = document.querySelector('section.d-flex');
+  const sectionview = document.getElementById(id);
+  sectionhide.classList.toggle('d-flex');
+  sectionhide.classList.toggle('d-none');
+  sectionview.classList.toggle('d-flex');
+  sectionview.classList.toggle('d-none');
+}
 function isbookstored() {
   return localStorage.getItem('awesomebookslist');
 }
@@ -69,6 +79,10 @@ function addbook(event) {
 }
 
 function initial() {
+  booknavs.forEach((nav) => {
+    nav.addEventListener('click', viewtab);
+  });
+
   if (!isbookstored()) {
     return;
   }
