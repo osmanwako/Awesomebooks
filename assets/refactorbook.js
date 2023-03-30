@@ -50,3 +50,47 @@ class Book {
   }
 }
 
+const bookform = document.getElementById('form-asm-bookid');
+const booklist = document.getElementById('awesomebookslist');
+const booknavs = document.querySelectorAll('.nav-link');
+
+function viewtab(event) {
+  const id = `awesome${event.target.id}`;
+  const sectionhide = document.querySelector('section.d-flex');
+  const sectionview = document.getElementById(id);
+  sectionhide.classList.toggle('d-flex', 'd-none');
+  sectionview.classList.toggle('d-flex', 'd-none');
+}
+function isbookstored() {
+  return localStorage.getItem('awesomebookslist');
+}
+
+function addbook(event) {
+  const title = event.target.elements.title.value;
+  const author = event.target.elements.author.value;
+  const book = new Book(title, author);
+  book.addbook();
+  const data = book.getcontainer();
+  booklist.append(data);
+  event.preventDefault();
+  event.target.reset();
+}
+
+function initial() {
+  booknavs.forEach((nav) => {
+    nav.addEventListener('click', viewtab);
+  });
+
+  if (!isbookstored()) {
+    return;
+  }
+  Book.lists = JSON.parse(localStorage.getItem('awesomebookslist'));
+  Book.lists.forEach((element) => {
+    const book = Object.assign(new Book(), element);
+    const data = book.getcontainer();
+    booklist.append(data);
+  });
+}
+
+bookform.addEventListener('submit', addbook);
+initial();
