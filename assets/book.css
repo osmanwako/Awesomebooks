@@ -125,6 +125,11 @@ body {
   display: none;
 }
 
+ul li .active {
+  color: blue;
+  font-weight: bold;
+}
+
 .copyright {
   padding: 10px;
 }
