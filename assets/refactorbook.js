@@ -58,8 +58,10 @@ function viewtab(event) {
   const id = `awesome${event.target.id}`;
   const sectionhide = document.querySelector('section.d-flex');
   const sectionview = document.getElementById(id);
-  sectionhide.classList.toggle('d-flex', 'd-none');
-  sectionview.classList.toggle('d-flex', 'd-none');
+  sectionhide.classList.toggle('d-flex');
+  sectionhide.classList.toggle('d-none');
+  sectionview.classList.toggle('d-flex');
+  sectionview.classList.toggle('d-none');
 }
 function isbookstored() {
   return localStorage.getItem('awesomebookslist');
